@@ -20,5 +20,6 @@
  </properties>
  <modules>
   <module>self-healing-with-spring-boot-actuator</module>
+  <module>spring-cloud-kubernetes</module>
  </modules>
 </project>
