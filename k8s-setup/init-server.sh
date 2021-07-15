@@ -4,6 +4,10 @@ yum -y install yum-utils
 
 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 
+#时间同步
+yum install ntpdate -y
+ntpdate time.windows.com
+
 #关闭防火墙
 
 systemctl stop firewalld
